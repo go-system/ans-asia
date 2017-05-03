@@ -3,7 +3,7 @@
     "name": "ans-asia/commands",
     "description": "A package command from ans",
     "keywords":["commands","modules"],
-    "type": "ans-asia-commands",
+    "type": "library",
     "license": "MIT",
     "version": "1.0.1",
     "prefer-stable": true,
