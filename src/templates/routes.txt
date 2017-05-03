@@ -1,0 +1,19 @@
+<?php 
+/**
+ * @author : {{AUTH}}  
+ * @Website : http://ans-asia.com 
+ * @version : 1.0
+ * @Build by tannq@ans-asia.com
+ * @description: Framework building use Laravel 
+ * @Created at: {{NOW}}
+ */
+
+$namespace = '{{NAMESPACE}}\{{MODULE}}\Controllers';
+Route::group(
+	['namespace' => $namespace,'prefix'=>'{{PREFIX}}','middleware'=>['web']],
+	function() {
+
+		Route::get('','{{MODULE}}Controller@index')->name('{{MODULE}}.index');
+
+	}
+);

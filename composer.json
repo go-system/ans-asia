@@ -1,0 +1,40 @@
+
+{
+    "name": "ans-asia/commands",
+    "description": "A package command from ans",
+    "keywords":["commands","modules"],
+    "type": "ans-asia-commands",
+    "license": "MIT",
+    "version": "1.0.1",
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Tan Nguyen",
+            "email": "tannq@ans-asia.com"
+        }
+    ],
+    "repositories": [
+    {
+        "type": "package",
+        "package": {
+          "name": "ans-asia/commands",
+          "version": "v0.1.0",
+          "source": {
+            "url": "git@gitlab.server.com:ans-asia/commands.git",
+            "type": "git",
+            "reference": "dd6ed3c8"
+          }
+        }
+      }
+    ],
+    "require": {
+        "illuminate/support": "^5.5@dev",
+        "php": ">=5.6.4"
+    },
+     "autoload": {
+        "psr-4": {
+            "AnsAsia\\Commands\\": "src/"
+        }
+    }
+}
